@@ -1,24 +1,23 @@
 {
     "name": "pingo/swoole-aliyunoss-addon",
-    "description": "Make Aliyun OSS SDK work with swoole CURL_HOOK.",
+    "description": "Aliyun OSS SDK for PHP",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "pingo",
-            "email": "pingstrong@163.com"
+            "name": "Aliyuncs",
+            "homepage": "http://www.aliyun.com"
         }
     ],
-    "autoload": {
-         
-    },
     "require": {
-        "ext-swoole": ">=4.4.13"
+        "php":">=5.3"
     },
-    "require-dev": {
-        "swoole/ide-helper": "dev-master"
+    "require-dev" : {
+        "phpunit/phpunit": "~4.0",
+        "satooshi/php-coveralls": "~1.0"
     },
-    "suggest": {
-        "aliyuncs/oss-sdk-php": "install the official oss sdk"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"OSS\\": "src/OSS"}
     }
 }
