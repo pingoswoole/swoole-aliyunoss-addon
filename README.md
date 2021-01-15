@@ -14,7 +14,6 @@ Oss\Core\OssException: : RequestId:
 请同时安装官方SDK和本组件。
 
 ```bash
-composer require aliyuncs/oss-sdk-php
 composer require pingo/swoole-aliyunoss-addon
 ```
 
