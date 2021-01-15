@@ -10,9 +10,7 @@
         }
     ],
     "autoload": {
-        "files": [
-            "src/Hook.php"
-        ]
+         
     },
     "require": {
         "ext-swoole": ">=4.4.13"
